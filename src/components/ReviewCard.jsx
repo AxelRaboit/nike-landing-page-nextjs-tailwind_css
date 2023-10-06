@@ -12,6 +12,7 @@ const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
             <div className="mt-3 flex justify-center items-center gap-2.5">
                 {Array.from({ length: rating }).map((_, index) => (
                     <img
+                        key={index}
                         src={star}
                         width={24}
                         height={24}
