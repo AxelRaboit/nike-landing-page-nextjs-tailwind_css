@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, customer3, customer4, customer5, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -78,14 +78,32 @@ export const reviews = [
     {
         imgURL: customer1,
         customerName: 'Morich Brown',
-        rating: 4.5,
+        rating: 4,
         feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
     },
     {
         imgURL: customer2,
         customerName: 'Lota Mongeskar',
-        rating: 4.5,
+        rating: 3,
         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+    },
+    {
+        imgURL: customer3,
+        customerName: 'Sophia Johnson',
+        rating: 5,
+        feedback: "I was extremely impressed with the product's quality and the fast shipping. 5 stars!"
+    },
+    {
+        imgURL: customer4,
+        customerName: 'Alexandre Dupont',
+        rating: 4,
+        feedback: "Le produit était de très bonne qualité, mais la livraison a pris un peu plus de temps que prévu."
+    },
+    {
+        imgURL: customer5,
+        customerName: 'Elena Petrov',
+        rating: 5,
+        feedback: "I can't say enough good things about this product. It's fantastic! Will definitely buy again."
     }
 ];
 
