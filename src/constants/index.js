@@ -97,7 +97,7 @@ export const reviews = [
         imgURL: customer4,
         customerName: 'Alexandre Dupont',
         rating: 4,
-        feedback: "Le produit était de très bonne qualité, mais la livraison a pris un peu plus de temps que prévu."
+        feedback: "The product was of very good quality, but the delivery took a little longer than expected."
     },
     {
         imgURL: customer5,
